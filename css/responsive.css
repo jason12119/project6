@@ -1,22 +1,17 @@
 @media screen and (max-width: 1140px) {
-  .grid-container {
-    .grid-item {
-      grid-column: 1/1;
-      grid-row: unset;
-    }
+  .grid-container .grid-item {
+    grid-column: 1/1;
+    grid-row: unset;
   }
-
   body {
     padding-left: 20px;
     padding-right: 20px;
   }
-
   .main {
     margin-top: 80px;
     margin-bottom: 80px;
     height: unset;
   }
-
   h2,
   h1 {
     font-size: 28px;
